@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PROFILE NI MENJO</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    .profile-container {
+      max-width: 900px;
+      margin: 50px auto;
+      background: rgba(201, 240, 240, 0.966);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+      overflow: hidden;
+    }
+
+    .profile-image {
+      flex: 1 1 300px;
+      max-width: 300px;
+      height: auto;
+    }
+
+    .profile-image img {
+      width: 90%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .profile-details {
+      flex: 2 1 500px;
+      padding: 2rem;
+    }
+
+    .profile-details h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      color: rgba(116, 3, 3, 0.986);
+    }
+
+    .profile-details h2 {
+      margin-top: 0.3rem;
+      font-size: 1.2rem;
+      color: rgba(136, 136, 136, 0.712);
+    }
+
+    .bio {
+      margin: 1rem 0;
+      line-height: 1.6;
+    }
+
+    .contact {
+      margin-top: 1.5rem;
+    }
+
+    .contact p {
+      margin: 0.3rem 0;
+    }
+
+    .social-links a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #0030b5;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .profile-container {
+        flex-direction: column;
+      }
+
+      .profile-image,
+      .profile-details {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-container">
+    <div class="profile-image">
+        <img src="menjopic.jpg" alt="MENJO P. GONZALES">
+    </div>
+    <div class="profile-details">
+      <h1>MENJO PALERMO GONZALES</h1>
+      <h2>INFO</h2>
+      <div class="bio">
+        <p>HELLO IM MENJO P. GONZALES IM 20 YEARS OLD. AND MY HOBBIES ARE PLAYING BASKETBALL, WATCHING FLIPTOP, LISTENING TO MUSIC, PLAYING BILLARDS, AND ALSO I CAN COOK SOME FOOD. AND IM CURRENTLY STUDYING AT PAMANTSAN NG LUNGSOD NG MUNTINLUPA. TAKING THE BSIT COURSE </p>
+      </div>
+
+      <div class="contact">
+        <p><strong>Email:</strong>gonzalesmenjo_bsit@plmun.edu.ph</p>
+        <p><strong>Location:</strong>SAN PEDRO CITY LAGUNA</p>
+        <p><strong>Contact Number:</strong>09364231278</p>
+      </div>
+
+      <div class="social-links">
+        <a href="https://www.facebook.com/" target="_blank">Facebook Account</a>
+        <a href="https://github.com/new" target="">Github Account</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
